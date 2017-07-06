@@ -43,3 +43,7 @@ body  {
 .article-title {
   border-bottom: 1px solid;
 }
+
+.search-bar{
+  padding-top: 10px;
+}

@@ -4,14 +4,21 @@ const mongoose = require('mongoose'),
       Schema   = mongoose.Schema;
 
 const articlesSchema = new Schema ({
-  url   : String,
+  url   : {
+        type   : String,
+        unique : true
+  },
   name  : String,
   date  : {
         type    : Date,
         default : Date.now
   },
   desc  : String,
-  tags  : Array
+  tags  : Array,
+  rank  : {
+        type    : Number,
+        default : 0
+  }
 
 });
 
