@@ -1,0 +1,23 @@
+{
+  "name": "commuinty-project",
+  "version": "1.0.0",
+  "description": "Tool that will allow ninjas to access parts of the community on demand and searchable",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aragothofdagobah/community-project.git"
+  },
+  "keywords": [
+    "BigCommerce"
+  ],
+  "author": "flux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aragothofdagobah/community-project/issues"
+  },
+  "homepage": "https://github.com/aragothofdagobah/community-project#readme"
+}
