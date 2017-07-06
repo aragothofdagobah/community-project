@@ -1,5 +1,9 @@
 <h1>Articles</h1>
-<% for(var article of articles){%>
-  <h2><%= article.name%></h2>
-  <h3><a href=<%="http://" + article.url%>><%= article.desc%></a></h3> <br>
-<%}%>
+<div class="article-container">
+  <% for(var article of articles){%>
+    <div class="article">
+      <h3 class="article-title"><a href=<%="http://forum.bigcommerce.com/s/question" + article.url%>><%= article.name%></a></h3>
+      <h4 class="article-desc"><%= article.desc%></h4> <br>
+    </div>
+  <%}%>
+</div>
