@@ -47,3 +47,25 @@ body  {
 .search-bar{
   padding-top: 10px;
 }
+
+.submit-form {
+  display: table;
+  margin: auto;
+}
+
+.submit-form .form-group {
+
+}
+
+.submit-form label {
+  display: table-cell;
+}
+
+.submit-form input {
+  display: table-cell;
+}
+
+#tag-example {
+  font-style: italic;
+  font-size: 20px;
+}
